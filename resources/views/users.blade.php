@@ -43,6 +43,8 @@
   <p>Users list table: 
     <p style="text-align: right;">
       <a href="{{ route('users.add-users-view') }}" class="btn btn-primary btn-md" >Add New</a>
+
+      <a href="{{ route('logout') }}" class="btn btn-danger btn-md" >Logout</a>
     </p> 
   </p> 
 
